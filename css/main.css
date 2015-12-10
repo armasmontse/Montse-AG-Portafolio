@@ -1,0 +1,260 @@
+*{
+	text-align: center;
+	font-family: arial;
+}
+* a{
+	text-decoration: none !important;
+}
+a:hover{
+	text-decoration: none !important;
+}
+.lh{
+	line-height: 1.7;
+}
+
+/* Header */
+
+.fondogris{
+	background-color: #474747;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 650px;
+}
+#particles-js{
+	width: 100%;
+	height: 590px;
+	position: absolute;
+}
+.colormenu{
+	background-color: #00B2AE;
+	padding: .8% 0;
+}
+h1{
+	font-size: 370%;
+	padding-top: 13%;
+}
+
+/* Sobre mí */
+
+hr{
+	height: 5px;
+	background-color: #BFBFBF;
+	width: 25%;
+}
+.fotos{
+	width: 80%;
+	height: intrinsic;
+	background-color: #E5E6EB;
+	box-shadow: 0px 12px 17px -7px #276873;
+	padding: 3% 3% 8%;
+}
+
+
+/* Portfolio */
+.works{
+    padding: 1%;
+    background-color: #fff;
+    width: 100%;
+    height: 250px;
+    margin: 3% auto;
+    display: block;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*
+
+              !!!!!!!! Checar porque no hace mis efectos !!!!!!!!
+a img{
+    height: 100px;
+    width: 300px;
+    margin: 15px 0;
+     -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+img:hover {
+    height: 133px;
+    width: 400px;
+    margin-left: -50px;
+} */
+
+/* Skills */
+
+.fondoskills{
+	background-image: url("../img/fondos/random_grey.png");
+	width: 100%;
+	height: intrinsic;
+}
+.jskills{
+	width: 10%;
+	margin-left: 20%;
+	display: block;
+}
+
+/* Works */
+
+.iconapren{
+	width: 30%;
+}
+
+/* Contacto */
+.fondocontact{
+	background-image: url("../img/fondos/fondo1.png");
+	width: 100%;
+	height: intrinsic;
+}
+.contacto{
+	font-size: 900%;
+	text-decoration: none;
+}
+/* !!!!! Checar efectos !!!!!! */
+.contacto:hover{
+	color: #7EB9BE;
+	-webkit-transform: rotate(-10deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+.left:hover {
+	transform: rotate(-10deg) scale(1.2);
+    -webkit-transform: rotate(-10deg) scale(1.2);           
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+ 
+.right:hover {
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+}
+
+/* Footer */
+
+footer{
+	background-color: #434343;
+	height: intrinsic;
+}
+
+
+/* prueba works */
+.ch-grid {
+	margin: 20px 0 0 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+.ch-grid:after,
+.ch-item:before {
+	content: '';
+    display: table;
+}
+.ch-grid:after {
+	clear: both;
+}
+.ch-grid li {
+	width: 100%;
+	height: 250px;
+	display: inline-block;
+	margin: 20px;
+}
+.ch-item {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	box-shadow: 
+		inset 0 0 0 16px rgba(255,255,255,0.6),
+		0 1px 2px rgba(0,0,0,0.1);
+	transition: all 0.4s ease-in-out;
+}
+.ch-img-1 { 
+	background-image: url(../img/Dashy3.png);
+	background-size: cover;
+}
+.ch-img-2 { 
+	background-image: url(../img/game3.png);
+	background-size: cover;
+}
+.ch-img-3 { 
+	background-image: url(../img/Gryd4.png);
+	background-size: cover;
+}
+.ch-img-4 { 
+	background-image: url(../img/escuela2.png);
+	background-size: cover;
+}
+.ch-img-5 { 
+	background-image: url(../img/semilla.jpg);
+	background-size: cover;
+}
+.ch-img-6 { 
+	background-image: url(../img/prettify.jpg);
+	background-size: cover;
+}
+.ch-info {
+	position: absolute;
+	background: rgba(63,147,147, 0.8);
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	transform: scale(0);
+}
+.ch-info h3 {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 230%;
+	margin: 0 30px;
+	padding: 45px 0 0 0;
+	height: 140px;
+	text-shadow: 
+		0 0 1px #fff, 
+		0 1px 2px rgba(0,0,0,0.3);
+}
+.ch-info p {
+	color: #fff;
+	padding: 10px 5px;
+	font-style: italic;
+	margin: 0 30px;
+	font-size: 140%;
+	border-top: 1px solid rgba(255,255,255,0.5);
+	opacity: 0;
+	transition: all 1s ease-in-out 0.4s;
+}
+.ch-info p a {
+	display: block;
+	color: rgba(255,255,255,0.7);
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 80%;
+	letter-spacing: 1px;
+	padding-top: 4px;
+}
+
+.ch-info p a:hover {
+	color: rgba(87, 231, 231, 1.0);  /* Cambiar color */
+}
+.ch-item:hover {
+	box-shadow: 
+		inset 0 0 0 1px rgba(255,255,255,0.1),
+		0 1px 2px rgba(0,0,0,0.1);
+}
+.ch-item:hover .ch-info {
+	transform: scale(1);
+	opacity: 1;
+}
+.ch-item:hover .ch-info p {
+	opacity: 1;
+}
+
+@media (max-width: 767px){
+	header{
+		font-size: 80%;
+	}
+}

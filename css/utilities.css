@@ -1,0 +1,86 @@
+/* -- Textos -- */
+
+/* Colores de Texto */
+
+.text-white{
+	color: white;
+}
+.text-tur{
+	color: #33B3A6;
+}
+.text-blue{
+	color: #046169;
+}
+.text-agua{
+	color: #8EFFE5;
+}
+
+/* Tamaño de Texto */
+.fs-450{
+	font-size: 450%;
+}
+.fs-300{
+	font-size: 300%;
+}
+.fs-230{
+	font-size: 230%;
+}
+.fs-180{
+	font-size: 180%;
+}
+.fs-170{
+	font-size: 170%;
+}
+.fs-140{
+	font-size: 140%;
+}
+
+/* Padding */
+
+.pd-5{
+	padding: 5%;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-2{
+	padding-bottom: 2%;
+}
+.pb-3{
+	padding-bottom: 3%;
+}
+.pb-6{
+	padding-bottom: 6%;
+}
+
+/* Margin */
+.mt-3{
+	margin-top: 3%;
+}
+.mt-5{
+	margin-top: 5%
+}
+.mt-10{
+	margin-top: 10%;
+}
+.mt-m15p{
+	margin-top: -15px;
+}
+
+.mb-5{
+	margin-bottom: 5%;
+}
+.mb-10{
+	margin-bottom: 10%;
+}
+
+
+.mg-2{
+	margin: 2%;
+}
+.mg-5{
+	margin: 5%;
+}
+.mg-10{
+	margin: 10%;
+}
