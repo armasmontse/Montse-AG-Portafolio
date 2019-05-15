@@ -3,7 +3,8 @@
 /* Colores de Texto */
 
 .text-white{
-	color: white;
+	/*color: white;*/
+	color: #f1aba2;
 }
 .text-tur{
 	color: #33B3A6;

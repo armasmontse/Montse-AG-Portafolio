@@ -15,15 +15,16 @@ a:hover{
 /* Header */
 
 .fondogris{
-	background-color: #474747;
+	background-color: #40587D;
 	background-size: cover;
 	background-attachment: fixed;
-	height: 650px;
+	height: 100vh;
 }
 #particles-js{
-	width: 100%;
-	height: 590px;
-	position: absolute;
+	width: 100vw;
+    height: 100vh;
+    position: absolute;
+    display: flex;
 }
 .colormenu{
 	background-color: #00B2AE;
@@ -31,7 +32,7 @@ a:hover{
 }
 h1{
 	font-size: 370%;
-	padding-top: 13%;
+	/*padding-top: 13%;*/
 }
 
 /* Sobre mí */
@@ -132,8 +133,11 @@ img:hover {
 /* Footer */
 
 footer{
-	background-color: #434343;
-	height: intrinsic;
+	background-color: #455977;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
 }
 
 
@@ -256,5 +260,18 @@ footer{
 @media (max-width: 767px){
 	header{
 		font-size: 80%;
+	}
+	.flex-column {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.flex-column > .col-xs-6 > h4{	
+		text-align: center !important;
+	}
+
+	.flex-column > .col-xs-6 {	
+		width: 95%;
 	}
 }
